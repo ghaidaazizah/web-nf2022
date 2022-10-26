@@ -1,0 +1,20 @@
+RUMUS CEPAT HTML
+
+header+nav+main>article>section*3
+
+CSS INLINE
+1. Style=""
+2. buat garis bisa pakai properti yang namanya border
+
+untuk ngasih jarak itu ada 2:
+1. margin = ngasih jarak di luar konten
+2. padding = ngasih jarak di dalam konten 
+(style="backgroun-color: yellow; padding-top: 10px; magin-bottom: 50px)
+padding itu nambah warna gitu, kalo margin baru dia longkapan gitu
+
+bisa lebih cepet tanpa nulis dia mau di top bottom atau apa
+tinggal masukin value aja. 
+jadi kek gini : padding: 10px 40px (atas bawah 10px, kanan kiri 40px)
+kalau 1 value dianggap all, 2 top bottom, 3 atas kanankiri bawah, 4 atas kanan bawah kiri 
+
+flex kesamping, border garis, width buat lebar
