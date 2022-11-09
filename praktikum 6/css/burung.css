@@ -21,6 +21,10 @@ h1 {
     text-align: center;
 }
 
+div > ul > li {
+    display: inline-block;
+}
+
 .gambar {
     text-align: center;
 }
