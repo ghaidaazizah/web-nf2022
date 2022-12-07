@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjumlahan</title>
+</head>
+<body>
+    <h2>Menghitung Penjumlahan</h2>
+    <script>
+        function getjumlah ()
+        {
+            var hasil;
+            var angka1;
+            var angka2;
+        
+            angka1 = parseInt(document .
+            getElementById("txtinput1").
+            value);
+        
+            angka2 = parseInt(document .
+            getElementById("txtinput2").
+            value);
+        
+            hasil = angka1 + angka2;
+            
+            document.getElementById("txthasil") .value = hasil;
+        }
+    </script>
+</head>
+    <body>
+        <div>
+            <div>
+                <label> angka 1 </label>
+                <input type="text" id="txtinput1"/>
+            </div>
+            <div>
+                <label> angka 2 </label>
+                <input type="text" id="txtinput2"/>
+            </div>
+            <div>
+                <input type="button" value="jumlah" onclick="getjumlah()"/>
+            </div>
+            <div>
+                <label> Hasil </label>
+                <input type="text" id="txthasil"/>
+            </div>
+        </div>
+    </body>
+</body>
+</html>
